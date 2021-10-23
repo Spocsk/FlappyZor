@@ -1,0 +1,19 @@
+﻿@page "/game"
+
+<div class="game-container">
+    <div class="sky">
+        <div class="bird" style="@birdCssProperty"></div>
+    </div>
+    <div class="ground"></div>
+</div>
+
+@code {
+    GameManager gameManager;
+    string birdCssProperty => $"bottom: {gameManager.Bird.DsitanceFromGround}px";
+
+    protected override void OnInitialized()
+    {
+        gameManager = new GameManager();
+    }
+}
+
