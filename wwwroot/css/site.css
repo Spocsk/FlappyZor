@@ -1,5 +1,36 @@
 ﻿@import url('open-iconic/font/css/open-iconic-bootstrap.min.css');
 
+.game-container {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+}
+
+.sky {
+    background-color: lightblue;
+    width: 100vw;
+    height: 80%;
+    position: absolute;
+
+}
+
+.ground {
+    background-color: forestgreen;
+    width: 100vw;
+    height: 20%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.bird {
+    background-color: yellow;
+    width: 60px;
+    height: 45px;
+    left: 220px;
+    position: absolute;
+}
+
 html, body {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
