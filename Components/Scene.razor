@@ -1,0 +1,24 @@
+﻿@page "/game"
+
+<div class="game-container" @onclick="StartGame">
+    <div class="sky">
+        <div class="bird" style="@BirdCssProperty"></div>
+    </div>
+    <div class="ground"></div>
+</div>
+
+@code {
+    Manager _gameManager;
+    string BirdCssProperty => $"bottom: {_gameManager.Bird.DsitanceFromGround}px";
+
+    protected override void OnInitialized()
+    {
+        _gameManager = new Manager();
+    }
+
+    void StartGame()
+    {
+        _gameManager.Loop();
+    }
+}
+

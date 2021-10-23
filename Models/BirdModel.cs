@@ -9,6 +9,11 @@ namespace FlappyZor.Models
         public BirdModel()
         {
         }
+
+        public void Fall(int gravity)
+        {
+            DsitanceFromGround -= gravity;
+        }
     }
 }
 

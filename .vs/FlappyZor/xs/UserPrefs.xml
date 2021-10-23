@@ -1,9 +1,28 @@
 ﻿<Properties StartupConfiguration="{1681E54D-B567-46C3-9BE0-FD34686A1DE3}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="_Imports.razor">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Pages/Index.razor">
+    <Files>
+      <File FileName="Pages/Index.razor" Line="6" Column="1" />
+      <File FileName="Components/GameContainer.razor" Line="17" Column="6" />
+      <File FileName="Models/GameManager.cs" Line="14" Column="15" />
+      <File FileName="Models/BirdModel.cs" Line="11" Column="10" />
+      <File FileName="_Imports.razor" Line="8" Column="13" />
+      <File FileName="wwwroot/css/site.css" Line="20" Column="14" />
+    </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="FlappyZor" expanded="True" />
+          <Node name="FlappyZor" expanded="True">
+            <Node name="FlappyZor" expanded="True">
+              <Node name="Components" expanded="True" />
+              <Node name="Models" expanded="True" />
+              <Node name="Pages" expanded="True">
+                <Node name="Index.razor" selected="True" />
+              </Node>
+              <Node name="wwwroot" expanded="True">
+                <Node name="css" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
         </State>
       </Pad>
       <Pad Id="MonoDevelop.Debugger.WatchPad">
@@ -11,7 +30,7 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.FlappyZor FirstBuild="True" PreferredExecutionTarget="/Applications/Safari.app" />
+  <MonoDevelop.Ide.ItemProperties.FlappyZor PreferredExecutionTarget="/Applications/Safari.app" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
